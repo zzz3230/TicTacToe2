@@ -1,0 +1,16 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <Style src="project://database/Assets/Game/UI/StStyle.uss?fileID=7433441132597879392&amp;guid=c3cdaf88f2cf3f2429f470cffc69a2d1&amp;type=3#StStyle" />
+    <MultiplayerMenuUIManager>
+        <ui:VisualElement>
+            <ui:Button text="&lt;&lt;" display-tooltip-when-elided="true" name="back-btn" class="st-btn" style="margin-left: 25px; margin-right: 0; margin-top: 22px; margin-bottom: 40px; padding-left: 0; padding-right: 0; padding-top: 0; padding-bottom: 0; font-size: 84px; height: 104px; width: 170px;" />
+            <ui:VisualElement style="align-items: center;">
+                <ui:Button text="Create LAN" display-tooltip-when-elided="true" name="createlan-btn" class="st-btn" style="margin-left: 14px; margin-right: 14px; margin-top: 14px; margin-bottom: 14px; padding-left: 0; padding-right: 0; padding-top: 0; padding-bottom: 0; height: 110px; font-size: 73px; width: 40%; align-items: stretch;" />
+            </ui:VisualElement>
+            <ui:VisualElement style="align-items: center;">
+                <ui:Label text="Hosts:" display-tooltip-when-elided="true" class="st-font" />
+                <ui:VisualElement name="hosts-box" />
+                <ui:Button text="Connect" display-tooltip-when-elided="true" name="connectlan-btn" class="st-btn" style="font-size: 81px; height: 120px; width: 50%; margin-left: 10px; margin-right: 10px; margin-top: 10px; margin-bottom: 10px;" />
+            </ui:VisualElement>
+        </ui:VisualElement>
+    </MultiplayerMenuUIManager>
+</ui:UXML>
